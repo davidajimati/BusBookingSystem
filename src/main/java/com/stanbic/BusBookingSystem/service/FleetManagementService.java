@@ -15,8 +15,8 @@ import static org.slf4j.LoggerFactory.getLogger;
 
 @Service
 @RequiredArgsConstructor
-public class BusManagementService {
-    private final Logger LOGGER = getLogger(BusManagementService.class);
+public class FleetManagementService {
+    private final Logger LOGGER = getLogger(FleetManagementService.class);
     private final BusesRepo busesRepo;
 
     public ResponseEntity<?> enrolNewBus(BusDto busDto) {

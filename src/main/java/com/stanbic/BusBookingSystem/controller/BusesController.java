@@ -1,7 +1,7 @@
 package com.stanbic.BusBookingSystem.controller;
 
 import com.stanbic.BusBookingSystem.dto.request.BusDto;
-import com.stanbic.BusBookingSystem.service.BusManagementService;
+import com.stanbic.BusBookingSystem.service.FleetManagementService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
@@ -24,7 +24,7 @@ public class BusesController {
      * remove user(s)
      */
 
-    private final BusManagementService busManagementService;
+    private final FleetManagementService busManagementService;
 
     @PostMapping("enroll-bus")
 
