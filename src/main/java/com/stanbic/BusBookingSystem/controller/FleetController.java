@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("bus-booking-system/admin/")
-public class BusesController {
+public class FleetController {
     /**
      * enroll bus
      * list available buses
